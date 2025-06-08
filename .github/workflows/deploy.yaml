@@ -8,5 +8,6 @@ jobs:
 
     steps:
       - name: Print Variable
-        run: echo "${{ secrets.TOKEN_SECRECT}}"
-        run: echo "${{ env.NAME }}"
+        run: |
+          echo "${{ secrets.TOKEN_SECRECT }}"
+          echo "${{ env.NAME }}"
