@@ -9,6 +9,9 @@ jobs:
     steps:
       - name: Print Variable
         run: echo "${{ secrets.TOKEN_SECRECT }}"
-      - name: Print Variable
-        run: echo "${{ vars.NAME }}"
+
+      - name: setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
           
