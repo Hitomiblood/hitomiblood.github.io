@@ -87,10 +87,12 @@ h6 {
   }
 
   .linktree {
-	  width: 120px;
-	  height: 120px;
-	  background-image: url("IMG-20231118-WA0047.jpg");
-	  background-size: cover;
-	  background-repeat: no-repeat;
-	  background-position: 50% 50%;
-  }
+    width: 120px;
+    height: 120px;
+    background-image: url("IMG-20231118-WA0047.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 0 auto; /* Añade margen automático horizontal para centrar */
+    display: block; /* Asegura que la imagen se comporte como bloque */
+}
